@@ -1,0 +1,10 @@
+<div class="content-user">
+    <img src="{{ user.avatar_url }}" alt="" width="280px" height="280px">
+    <h1>{{ user.name }}</h1>
+    <label>{{ user.login }}</label>
+    <p><i class="icon-company" title="Company"></i>{{ user.company }}</p>
+    <p><i class="icon-location" title="Location"></i>{{ user.location }}</p>
+    <p><i class="icon-gists" title="Gists"></i>{{ user.public_gists | number }}</p>
+    <p><i class="icon-repos" title="Repos"></i>{{ user.public_repos | number }}</p>
+    <p><i class="icon-followers" title="Followers"></i>{{ user.followers | number}}</p>
+</div>

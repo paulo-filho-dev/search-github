@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+$color1: #ac53f2;
+$color2: #5c5c5c;
+$color3: #ffffff;
+$color4: #000000;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+.card{
+    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+@font-face {
+    font-family: Monaco;
+    src: url(assets/monaco.ttf);
+}

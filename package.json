@@ -1,6 +1,8 @@
 {
   "name": "search-github",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Olá, esse é um projeto de um desafio!",
+  "author": "Paulo Filho",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

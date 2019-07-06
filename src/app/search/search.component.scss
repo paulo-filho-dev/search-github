@@ -1,0 +1,44 @@
+$color1: #ac53f2;
+$color2: #5c5c5c;
+:host{
+    width: 100%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 50px;
+    width: calc(100% - 100px);
+    width: 100%;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    color: $color2;
+    box-sizing: border-box;
+    padding: 0 17px; 
+}
+button{
+    border:none;
+    width: 100px;
+    height: 50px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: $color1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100px;
+    cursor: pointer;
+    &:hover{
+        opacity: .9;
+    }
+}
+.icon-search{
+    background: url('/assets/icons/search.svg') center center no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}

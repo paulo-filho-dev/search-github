@@ -1,0 +1,27 @@
+.content-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    h1{
+        font-family: Monaco;
+        font-size: 60px;
+        color: #000000;
+        margin-bottom: 10px;
+        span{
+            font-family: Raleway;
+            font-weight: 200;
+            font-style: italic;
+            font-size: 1em;
+            margin-left: 10px;
+            color: #000000;
+        }
+    }
+    .form-search{
+        margin: 0 auto;
+        max-width: 750px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

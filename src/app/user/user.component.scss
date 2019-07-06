@@ -1,0 +1,59 @@
+$color2: #5c5c5c;
+
+.icon-company,
+.icon-location,
+.icon-followers,
+.icon-repos,
+.icon-gists{
+    min-width: 24px;
+    min-height: 24px;
+    display: inline-block;
+}
+.icon-location{
+    background: url('/assets/icons/location.svg') center center no-repeat;
+}
+.icon-company{
+    background: url('/assets/icons/organization.svg') center center no-repeat;
+}
+.icon-followers{
+    background: url('/assets/icons/followers.svg') center center no-repeat;
+}
+.icon-repos{
+    background: url('/assets/icons/repositorie.svg') center center no-repeat;
+}
+.icon-gists{
+    background: url('/assets/icons/star.svg') center center no-repeat;
+}
+
+.content-user{
+    padding:  53px 0;
+    img{
+        margin-bottom: 12px;
+    }
+    h1{
+        font-family: Raleway;
+        font-size: 35px;
+        font-weight: 300;
+        color:#000;
+        margin-bottom: 7px;
+    }
+    label{
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 300;
+        color: $color2;
+        margin-bottom: 33px;
+        display: block;
+    }
+    p{
+        display: flex;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 300;
+        color: $color2;
+        margin-bottom: 14px;
+        i{
+            margin-right: 7px;
+        }
+    }
+}

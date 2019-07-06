@@ -1,0 +1,31 @@
+$color1: #ac53f2;
+$color2: #5c5c5c;
+h2{
+    font-family: Raleway;
+    font-size: 35px;
+    color:$color1;
+    margin-bottom: 4px;
+}
+p{
+    display: flex;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    color:#000;
+    margin-bottom: 10px;
+    i{
+        margin-right: 7px;
+    }
+    &.label-star{
+        color:$color2;
+        margin-bottom: 30px;
+    }
+}
+
+
+.icon-star{
+    min-width: 24px;
+    min-height: 24px;
+    display: inline-block;
+    background: url('/assets/icons/star.svg') center center no-repeat;
+}
