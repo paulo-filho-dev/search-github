@@ -3,12 +3,11 @@ $color2: #5c5c5c;
 :host{
     width: 100%;
 }
-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-input{
+.search-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__input{
     height: 50px;
     width: calc(100% - 100px);
     width: 100%;
@@ -17,9 +16,9 @@ input{
     font-weight: 300;
     color: $color2;
     box-sizing: border-box;
-    padding: 0 17px; 
-}
-button{
+    padding: 0 17px;
+  }
+  &__{
     border:none;
     width: 100px;
     height: 50px;
@@ -35,6 +34,7 @@ button{
     &:hover{
         opacity: .9;
     }
+  }
 }
 .icon-search{
     background: url('/assets/icons/search.svg') center center no-repeat;
