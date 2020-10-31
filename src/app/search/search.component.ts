@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SearchService } from '../search.service';
 import { FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -11,10 +10,8 @@ import { Router } from '@angular/router';
 export class SearchComponent implements OnInit {
 	@Input() userName;
 	form;
-	constructor(	
-		private searchService: SearchService,
-		private fb: FormBuilder,
-		private router: Router) { }
+	constructor(private fb: FormBuilder,
+		        private router: Router) { }
 
 	ngOnInit() {
 		this.form = this.fb.group({
